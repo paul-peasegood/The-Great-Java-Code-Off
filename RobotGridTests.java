@@ -5,8 +5,8 @@ public class RobotGridTests {
 
     @Test
     public void testIsSafe() {
-        // TODO: Add test logic and assertions for isSafe function
-        Assert.fail("Not implemented yet");
+        RobotGrid t = new RobotGrid();
+        Assert.assertTrue(t.isSafe(96, -69));
     }
 
     @Test
