@@ -1,8 +1,8 @@
 public class RobotGrid {
     // Placeholder code for the main implementation class
 
-    public boolean isSafe(int x, int y) {
-        String allDigits = String.valueOf(Math.abs(x)) + String.valueOf(Math.abs(y));
+    public static boolean isSafe(int x, int y) {
+        String allDigits = Math.abs(x) + String.valueOf(Math.abs(y));
         int sum = 0;
 
         for (int i = 0; i < allDigits.length(); i++) {
